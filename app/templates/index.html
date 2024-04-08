@@ -1,0 +1,23 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insights List</title>
+</head>
+<body>
+    <h1>Insights List</h1>
+    <ul>
+        {% for insight in insights %}
+            <li>
+                <strong>ID:</strong> {{ insight.id }}<br>
+                <strong>Sector:</strong> {{ insight.sector }}<br>
+                <strong>Topic:</strong> {{ insight.topic }}<br>
+                <strong>Insight:</strong> {{ insight.insight }}<br>
+                <strong>Region:</strong> {{ insight.region }}<br>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
