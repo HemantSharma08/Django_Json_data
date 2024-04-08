@@ -9,9 +9,9 @@ It offers a straightforward process for integrating JSON data into your Django a
 
 <ul>
   <p>Usefull cmd's</p>
-  <li>hello
+  <ul>hello
     <li>hello</li>
-  </li>
+  </ul>
   <li></li>
   <li></li>
   <li></li>
