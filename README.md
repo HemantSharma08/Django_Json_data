@@ -9,12 +9,8 @@ It offers a straightforward process for integrating JSON data into your Django a
 
 <ul>
   <p>Usefull cmd's</p>
-  <ul>hello
-    <li>hello</li>
-  </ul>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Runserver--> python manage.py runserver</li>
+  <li>Json import--> python ./manage,py "json_file_name.json"</li>
+  <li>CreateSuperUser-->python manage.py createsuperuser</li>
+  <li>Install Requirement File--> pip install -r requirements.txt</li>
 </ul>
